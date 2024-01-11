@@ -1,0 +1,139 @@
+<mxfile host="65bd71144e">
+    <diagram id="djXTaY9ot2A6cY_eDvSB" name="記事一覧（公開）">
+        <mxGraphModel dx="1581" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="B0neubEpAOTRSq8ILXd--1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="135" y="50" width="500" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="B0neubEpAOTRSq8ILXd--2" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="70" width="450" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="B0neubEpAOTRSq8ILXd--3" value="Main" style="rounded=0;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="160" width="450" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="B0neubEpAOTRSq8ILXd--4" value="記事1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.5" y="270" width="361" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="B0neubEpAOTRSq8ILXd--5" value="新着記事" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="200" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="B0neubEpAOTRSq8ILXd--6" value="記事1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.5" y="350" width="361" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="B0neubEpAOTRSq8ILXd--7" value="記事1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.5" y="420" width="361" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="B0neubEpAOTRSq8ILXd--8" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="525" width="450" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="B0neubEpAOTRSq8ILXd--9" value="新規作成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="80" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Xso4ZqlN_hi3DJWnr-p-1" value="ArticleCard" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="230" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Xso4ZqlN_hi3DJWnr-p-2" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B0neubEpAOTRSq8ILXd--4" target="5Xso4ZqlN_hi3DJWnr-p-1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="310" as="sourcePoint"/>
+                        <mxPoint x="650" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5Xso4ZqlN_hi3DJWnr-p-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="240" width="400" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Xso4ZqlN_hi3DJWnr-p-4" value="ArticleList" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="360" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Xso4ZqlN_hi3DJWnr-p-7" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5Xso4ZqlN_hi3DJWnr-p-3" target="5Xso4ZqlN_hi3DJWnr-p-4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="310" as="sourcePoint"/>
+                        <mxPoint x="400" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="sb7BL_lzK0U5K5y9QJVN" name="管理画面（記事一覧）">
+        <mxGraphModel dx="558" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="AV-ki-AUNpnprYHSTqfn-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="135" y="50" width="500" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="AV-ki-AUNpnprYHSTqfn-1" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="70" width="450" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="AV-ki-AUNpnprYHSTqfn-2" value="Main" style="rounded=0;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="160" width="450" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="AV-ki-AUNpnprYHSTqfn-3" value="記事1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.5" y="270" width="361" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="AV-ki-AUNpnprYHSTqfn-4" value="新着記事" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="200" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="AV-ki-AUNpnprYHSTqfn-5" value="記事1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.5" y="350" width="361" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="AV-ki-AUNpnprYHSTqfn-6" value="記事1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.5" y="420" width="361" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="AV-ki-AUNpnprYHSTqfn-7" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="525" width="450" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="_QnH5V0hBWJeGNp7neev-1" value="新規作成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="80" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="rrNbk0SunYI4EsLmHmoU-1" value="ログアウト" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="80" width="90" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="YiYkCdeLAwS2XJH-fx0N" name="管理画面（記事作成画面）">
+        <mxGraphModel dx="558" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="pikZWLE04BDQRDqoufJg-1" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="70" width="450" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pikZWLE04BDQRDqoufJg-2" value="Main" style="rounded=0;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="160" width="450" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="pikZWLE04BDQRDqoufJg-3" value="記事1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.5" y="270" width="361" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pikZWLE04BDQRDqoufJg-4" value="新着記事" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="200" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pikZWLE04BDQRDqoufJg-5" value="記事1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.5" y="350" width="361" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pikZWLE04BDQRDqoufJg-6" value="記事1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="204.5" y="420" width="361" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pikZWLE04BDQRDqoufJg-7" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="525" width="450" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pikZWLE04BDQRDqoufJg-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="135" y="50" width="500" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="kCp3QPsYPENr78ytFQCg-1" value="記事一覧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="80" width="110" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="Ry5-77fhkfopavndcQec" name="ログイン画面（管理画面）">
+        <mxGraphModel dx="558" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
