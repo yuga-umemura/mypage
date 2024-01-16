@@ -1,3 +1,11 @@
 {
-  "editor.codeActionsOnSave": ["source.addMissingImports"]
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports"
+  ],
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  }
 }

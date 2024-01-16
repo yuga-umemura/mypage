@@ -1,50 +1,32 @@
-import Link from "next/link";
-import { Button } from "@chakra-ui/react";
-import ArticleList from "./components/ArticlList";
+import { Heading } from "@chakra-ui/react";
+import CreateButton from "@/components/CreateButton";
+import ArticleList from "../../components/ArticlList";
 import { Article } from "./types";
+import { ResolvingMetadata } from "next";
 
-export default function Home() {
+// 記事を取得
+async function getArticles() {
+  const res = await fetch("http://localhost:3000/api/blog");
+
+  if(!res.ok) {
+    throw new Error("Failed to fetch articles");
+  }
+
+  const data = await res.json();
+  return data.articles as Article[];
+}
+
+export default async function Home() {
+  const articles = await getArticles();
   return (
     <div>
-      <Button
-        as={Link}
-        color="white"
-        bg={"orange.400"}
-        _hover={{ bg: "orange.300" }}
-        size="lg"
-        href="/blog/new"
-      >
-        新規作成
-      </Button>
-      <h1>新着記事</h1>
+      <CreateButton />
+      <Heading as="h1" mb={4}>
+        新着記事
+      </Heading>
       <ArticleList articles={articles} />
     </div>
   );
 }
 
-const articles: Article[] = [
-  {
-    id: 1,
-    title: "title",
-    content: "I have a pen. I have an apple.",
-    slug: "slug",
-    createAt: "2023-01-10",
-    updatedAt: "2023-01-10",
-  },
-  {
-    id: 2,
-    title: "title",
-    content: "I have a pen I have an apple.",
-    slug: "slug",
-    createAt: "2023-01-10",
-    updatedAt: "2023-01-10",
-  },
-  {
-    id: 3,
-    title: "title",
-    content: "I have a pen I have an apple.",
-    slug: "slug",
-    createAt: "2023-01-10",
-    updatedAt: "2023-01-10",
-  },
-];
+

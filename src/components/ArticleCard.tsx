@@ -6,7 +6,7 @@ import {
   CardBody,
   CardFooter,
 } from "@chakra-ui/react";
-import { Article } from "../types";
+import { Article } from "../app/blog/types";
 import NextLink from "next/link";
 
 export default function ArticleCard({ article }: { article: Article }) {

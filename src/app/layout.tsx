@@ -3,11 +3,11 @@
  * TODO
  */
 import type { Metadata } from "next";
-import "@/app/ui/globals.css";
-import Provider from "./Provider";
-import Header from "./ui/Header";
-import Main from "./ui/Main";
-import Footer from "./ui/Footer";
+import "@/components/globals.css";
+import Provider from "../components/Provider";
+import Header from "../components/Header";
+import Main from "../components/Main";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",

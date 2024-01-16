@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <Container>
-        <div className="bg-cyan-600 text-white">
+        <div className="bg-blue-700 text-white">
           <nav className="flex flex-row w-auto items-center justify-center gap-x-16 py-6">
             <Link
               href="/"

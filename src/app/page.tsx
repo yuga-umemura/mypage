@@ -1,6 +1,5 @@
-import Profile from "./ui/Profile";
-import { lusitana } from "./ui/fonts";
-import SNS from "./ui/SNS";
+import Profile from "../components/Profile";
+import SNS from "../components/SNS";
 
 export default async function Page() {
   return (

@@ -4,7 +4,7 @@ export default function Profile() {
       <div className="flex gap-x-4 items-center ">
         <div className="rounded-full p-px h-[80px] w-[80px]">
           <img
-            src="./ui/icon.png"
+            src="./icon.png"
             width={80}
             alt="profile icon"
             className="rounded-full"
